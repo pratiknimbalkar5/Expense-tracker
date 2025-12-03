@@ -1,52 +1,60 @@
-Expense Tracker 💰 | HTML, CSS, JavaScript
+Expense Tracker
 
-A simple and efficient Expense Tracker web application built using HTML, CSS, and JavaScript, designed to help users record, manage, and visualize their daily expenses. The project uses the browser’s Local Storage for saving data, so all entries remain available even after refreshing or closing the browser.
+A simple and user-friendly Expense Tracker built using HTML, CSS, and JavaScript. This project helps users add, view, and manage their daily expenses directly in the browser. All data is stored using the Local Storage API, ensuring the expenses remain saved even after the page is refreshed or reopened.
 
-🚀 Features
+✨ Features
 
-➕ Add new expenses with amount, category, and description
+Add expenses with amount and description
 
-📝 Automatically displays a list of all expenses
+View all saved expenses
 
-✏️ Edit or ❌ delete existing entries
+Delete individual expenses
 
-💾 Stores all data in Local Storage (No backend required!)
+Automatically calculates total spending
 
-📊 Shows total expenses
+Stores all data in Local Storage (no backend required)
 
-📱 Fully responsive and clean UI
+Clean and responsive UI
 
-🧰 Tech Stack
+🛠️ Technologies Used
 
-HTML5 – Structure
+HTML5 – Structure of the application
 
-CSS3 – Styling and UI
+CSS3 – Styling and layout
 
-JavaScript (Vanilla JS) – Logic, DOM updates, local storage handling
+JavaScript – App logic and DOM handling
 
-Local Storage API – Persistent client-side data storage
+Local Storage – Data persistence
 
 📂 Project Structure
 /index.html
 /styles.css
 /script.js
 
-🧠 How It Works
+📘 How It Works
 
-When a user adds an expense, it is stored in localStorage as an object.
+When a user adds an expense, JavaScript stores it as an object in the browser’s localStorage.
+Whenever the page loads, the app reads all saved entries and displays them in the list.
+Users can also delete items, and the changes update instantly both on the screen and in storage.
 
-The list is updated dynamically using JavaScript.
+🎯 Purpose of This Project
 
-On page load, all saved expenses are fetched and displayed automatically.
+This project is ideal for beginners who want to learn:
 
-🎯 Purpose
+Basic JavaScript DOM manipulation
 
-This project demonstrates:
+Working with Local Storage
 
-CRUD operations using Local Storage
+Creating simple, interactive web apps
 
-DOM manipulation skills
+Organizing code in small projects
 
-Clean UI design
+🚀 Future Improvements
 
-Beginner-friendly JavaScript project implementation
+Add category-based filtering
+
+Add charts for visual analytics
+
+Add dark mode
+
+Add edit option for expenses
