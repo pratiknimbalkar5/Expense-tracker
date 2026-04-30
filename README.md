@@ -2,7 +2,7 @@ Expense Tracker
 
 A simple and user-friendly Expense Tracker built using HTML, CSS, and JavaScript. This project helps users add, view, and manage their daily expenses directly in the browser. All data is stored using the Local Storage API, ensuring the expenses remain saved even after the page is refreshed or reopened.
 
-✨ Features
+✨ Features 
 
 Add expenses with amount and description
 
