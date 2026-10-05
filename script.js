@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.removeItem('loggedInUser');
     updateNavBar();
     // Redirect to login page
-    window.location.href = isMainPage ? 'pages/login.html' : 'login.html';
+    window.location.href ='login.html';
   }
 
   const navLogOut = document.getElementById('navLogOut');
